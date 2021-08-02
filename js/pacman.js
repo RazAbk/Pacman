@@ -99,15 +99,15 @@ function getNextLocation(eventKeyboard) {
     switch (eventKeyboard.code) {
         case 'ArrowUp':
             nextLocation.i--;
-            PACMAN = '<img src="img/PacmanUP.png"</img>';
+            PACMAN = '<img src="img/PacmanUp.png"</img>';
             break;
         case 'ArrowDown':
             nextLocation.i++;
-            PACMAN = '<img src="img/PacmanDOWN.png"</img>';
+            PACMAN = '<img src="img/PacmanDown.png"</img>';
             break;
         case 'ArrowLeft':
             nextLocation.j--;
-            PACMAN = '<img src="img/PacmanLEFT.png"</img>';
+            PACMAN = '<img src="img/PacmanLeft.png"</img>';
             break;
         case 'ArrowRight':
             nextLocation.j++;
